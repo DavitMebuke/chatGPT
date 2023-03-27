@@ -1,0 +1,191 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+.page{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+p{
+    color: white;
+}
+h3{
+    color: white;
+}
+
+.hostside{
+    width: 20%;
+    height: 100vh;
+    background-color: #222222;
+    padding: 16px;
+}
+.head{
+    display: flex;
+    gap: 12px;
+    background-color:#FFFFFF0D;
+    border-radius: 10px;
+    width: 276px;
+    height: 64px;
+    padding: 12px 16px;
+
+}
+.headlogo{
+    background-color:#019A5A;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 7px;
+    border-radius: 50px;
+}
+.texts{
+    display: flex;
+}
+.icons{
+    width: 16px;
+    margin-top: 35px;
+    margin-left: 9px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.lorems{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    margin-top: 33px;
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.btn1{
+    position: absolute;
+    height: 48px;
+    width: 276px;
+    left: 20px;
+    top: 300px;
+    border-radius: 10px;
+    padding: 12px 16px 12px 16px;
+    background-color: #019A5A;
+    color: white;
+}
+
+hr{
+    position: absolute;
+    width: 250px;
+    top: 450px;
+}
+.buttom{
+    margin-top: 200px;
+    margin-left: 10px;
+    display: flex;
+
+}
+.icons2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 16px;
+    margin-top: 2px;
+}
+.lorems2{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    margin-top: 0px;
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.logout{
+    color:#FF5555;    ;
+}
+
+
+
+.mainpage{
+    width: 79vw;
+    height: 97vh;
+    background-color: #222222;
+    margin-left: 15px;
+    margin-right: 15px;
+    align-self: center;
+    display: flex;
+    overflow: hidden;
+}
+h2{
+    color:#E5E5E5;
+    font-size: 48px;
+}
+.welcome{
+    display: flex;
+    flex-direction: column;
+    margin-left: 380px;
+    margin-top: 180px;
+}
+.welcomep{
+    margin-left: 33px;
+    margin-top: 10px;
+    color:#E5E5E5;
+}
+span{
+    background-color: #097E4D; 
+    background-image: linear-gradient(to right, #097E4D , #222222);
+}
+input{
+    width: 600px;
+    margin-top: 70px;
+    margin-left: -80px;
+    height: 50px;
+    border: #FFFFFF0D solid 3px;
+    border-radius: 10px;
+    background-color: #FFFFFF0D;
+    padding-left: 20px;
+}
+.btn2{
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    align-items: center;
+    background-color: #019A5A;
+    padding: 13px 17px;
+    margin-top: 159px;
+    margin-left: 460px;
+}
+
+.gradient{
+    width: 1300px;
+    background: radial-gradient(50% 50% at 50% 50%,#019A5A 35%, rgba(173, 255, 0, 0) 100%);
+    height: 1000px;
+    border-radius: 600px;
+    margin-left: -1000px;
+    margin-top: 400px;
+    
+}
+
+.items{
+    display: flex;
+    gap: 80px;
+    margin-left: -750px;
+    margin-top: 500px;
+}
+.item1{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+.txt1{
+    margin-top: 20px;
+}
+.p1{
+    margin-top: 20px;
+}
